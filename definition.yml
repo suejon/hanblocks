@@ -1,0 +1,20 @@
+korean:
+  word: 교양인 # Lemma.feat.val
+  definition: 교양이 있는 사람 # Sense.feat.value
+  examples: # Sense.SenseExample[].feat[].val (if feat.type == example)
+    - type: 구
+      value: 교양인으로 살다.
+    - type: 문장
+      value: 예절은 교양인의 자질이요 지성인의 속성이다.
+    - type: 대화
+      value: 욕하는 게 뭐가 어때서 못하게 하는 거예요?
+  pronounciation: 교ː양인 # WordForm.feat[].val (if feat.type == pronounciation)
+  sound_url: https://dicmedia.korean.go.kr/multimedia/naver/2016/50000/41000/32448_gyo-yangin.wav # WordForm.feat[].val (if feat.type == sound)
+english:
+  word: refined person # Sense.Equivalent[].feat[x+1] if (x.att == language && x.val == 영어)
+  definition: A person of refinement  # Sense.Equivalent[].feat[x+2] if (x.att == language && x.val == 영어)
+chinese:
+  word: 有教养的人  # Sense.Equivalent[].feat[x+1] if (x.att == language && x.val == 중국어)
+  definition: 有涵养的人 # Sense.Equivalent[].feat[x+2] if (x.att == language && x.val == 중국어)
+
+

@@ -1,0 +1,42 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = []
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+type EntryChinese {
+  definition String?
+  word       String?
+}
+
+type EntryEnglish {
+  definition String?
+  word       String?
+}
+
+type EntryKorean {
+  definition     String
+  examples       EntryKoreanExamples[]
+  pronounciation String?
+  sound          String?
+  word           String
+}
+
+type EntryKoreanExamples {
+  type  String
+  value String
+}
+
+model entry {
+  id      String       @id @default(auto()) @map("_id") @db.ObjectId
+  chinese EntryChinese
+  english EntryEnglish
+  korean  EntryKorean
+
+  // @@index([english.word], map: "english.word_1")
+  @@index([english.word], map: "english.word_text")
+}
