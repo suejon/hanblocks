@@ -21,7 +21,7 @@ export const entryRouter = createTRPCRouter({
       ],
       cursor: {},
     });
-    return result.cursor?.firstBatch ?? []
+    return (result.cursor as { firstBatch?: unknown[] })?.firstBatch ?? []
   }),
   get: publicProcedure.input(z.string()).query(({ ctx, input }) => {
     return ctx.prisma.entry.findUnique({
