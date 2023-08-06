@@ -54,9 +54,9 @@ export default function Home() {
                       Nothing found.
                     </div>
                   ) : (
-                    filteredEntries.map((entry: any) => (
+                    filteredEntries.map((entry: any, i) => (
                       <Combobox.Option
-                        key={entry.id}
+                        key={i}
                         className={({ active }) =>
                           `relative cursor-default select-none py-2 pl-10 pr-4 ${
                             active ? "bg-teal-600 text-white" : "text-gray-900"
