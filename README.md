@@ -7,6 +7,9 @@ It's a simple dictionary lookup which is quick and to-the-point. The current dic
 Feel free to check it out here:
 https://han-blocks.vercel.app/
 
+# Data
+Provided by: 
+https://krdict.korean.go.kr
 
 # Suggestions
 If this is useful for you too and there is a feature which you think could be helpful for learning Korean, please let me know.
