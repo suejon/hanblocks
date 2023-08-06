@@ -22,7 +22,7 @@ export default function Home() {
         <meta name="description" content="Han Blocks" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center">
+      <main className="flex min-h-screen flex-col items-center justify-center bg-purple-100">
         <div className="flex flex-col items-center justify-center gap-4">
           <h1 className="text-4xl font-bold">Welcome to Han Blocks</h1>
           <p>Find out what that word in Korean is. Fast.</p>

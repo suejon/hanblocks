@@ -1,12 +1,23 @@
-# Create T3 App
+# Han Blocks
+
+This app was created as a way to experiment with some modern front end technologies that support the NextJS stack, while at the same time, providing a tool which i could use to learn Korean.
+
+It's a simple dictionary lookup which is quick and to-the-point. The current dicitonary service provided by Naver is great but it often has a lot more information than i need as a Korean learner. Not to mention, its mobile app is just the embedded web app which is clunky and slow.
+
+Feel free to check it out here:
+https://han-blocks.vercel.app/
+
+
+# Suggestions
+If this is useful for you too and there is a feature which you think could be helpful for learning Korean, please let me know.
+
+# Road Map
+- Fun examples using generative AI
+- Make it less ugly
+
+# T3 Stack
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
-
-## What's next? How do I make an app with this?
-
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
 
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
@@ -14,15 +25,3 @@ If you are not familiar with the different technologies used in this project, pl
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
